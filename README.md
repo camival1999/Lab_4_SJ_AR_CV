@@ -31,11 +31,17 @@ La herramienta se apoya en la fuerza de gravedad para poder hacer contacto entre
 
 La herramienta está contruida con una T de pvc de 1/2 pulgada, en un extremo se le ha insertado un tramo de tubo pvc de 1/2 pulgada de 40 cm de largo, el cual servirá para anclar al porta herramientas del robot. Dado que los torques y fuerzas de proceso son bastante pequeñas, bastó con insertar este tramo de tubo en el agujero que tiene el porta herramientas para asegurar su fijación. Por otro lado, en la T se insertó un marcador borrable al cual debía restringirse su desplazamiento, para lograrlo se instalaron en el marcador dos empaques de caucho de 18 mm de diámetro interno, con el material del empaque se aseguró la fijación requerida para detener el marcador en su recorrido. A continuación se muestra la herramienta construida:
 
-<img src="https://i.postimg.cc/TP5GqSj3/Whats-App-Image-2022-06-15-at-10-51-53-AM.jpg" alt="drawing" width="400"/>
+<img src="https://i.postimg.cc/TP5GqSj3/Whats-App-Image-2022-06-15-at-10-51-53-AM.jpg" alt="drawing" width="300"/>
 
 A continuación se muestra los modelos cad de las piezas y los planos correspondientes:
 
-<img src="https://i.postimg.cc/8kY52qwN/herramienta.png" alt="drawing" width="400"/>
+<img src="https://i.postimg.cc/8kY52qwN/herramienta.png" alt="drawing" width="300"/>
+
+<img src="https://i.postimg.cc/3wBGHnb7/marcador.png" alt="drawing" width="300"/>
+
+<img src="https://i.postimg.cc/130npvS6/T.png" alt="drawing" width="300"/>
+
+<img src="https://i.postimg.cc/MTgVsXFj/caucho.png" alt="drawing" width="300"/>
 
 
 
