@@ -76,12 +76,12 @@ Con los WorkObjects y Targets definidos como fue mencionado:
 ![Marcos](https://user-images.githubusercontent.com/55710287/176576823-0c81081d-581a-48d3-b7d6-58b3558dd130.png)
 ![Targets](https://user-images.githubusercontent.com/55710287/176576601-98a1784d-6e3f-4cde-ab08-2d5f103d4ffd.png)
 
-Una vez definidos los Targets, se emplearon los comandos `moveL`, `moveLJ` y `moveC` para generar las trayectorias que describieran las iniciales SAC (Sara - Alejandra - Camilo) tomando en cuenta las restricciones de velocidad menor a 1000 mm/s y por supuesto reduciendola según el tipo de movimiento, mantener una zona de tolerania menor o igual a 10mm y realizando un retorno a la posición de home (Definida en su propio WorkObject para no verse afectada con los movimientos de los demás targets). Además de sólo generar las trayectorias, se debe tener en cuenta la configuración del robot en la que es alcanzado cada Target, para lo cual se tomó especial cuidado de revisar que los movimientos entre targets y entre letras fuese posible, buscando lograr un efecto adicional artístico jugando con distintas configuraciones.
+Una vez definidos los Targets, se emplearon los comandos `moveL`, `moveLJ` y `moveC` para generar las trayectorias que describieran las iniciales SAC (Sara - Alejandra - Camilo) tomando en cuenta las restricciones de velocidad menor a 1000 mm/s y por supuesto reduciéndola según el tipo de movimiento, mantener una zona de tolerancia menor o igual a 10mm y realizando un retorno a la posición de "Home" (definida en su propio WorkObject para no verse afectada con los movimientos de los demás targets). Además de sólo generar las trayectorias, se debe tener en cuenta la configuración del robot en la que es alcanzado cada Target, para lo cual se tomó especial cuidado de revisar que los movimientos entre targets y entre letras fuese posible, buscando lograr un efecto adicional artístico jugando con distintas configuraciones.
 
 Aquí podemos ver las trayectorias generadas en el cuadrante 1:
 ![Trayectorias](https://user-images.githubusercontent.com/55710287/176577362-4b6594fd-fc46-4716-a1fa-cfdeccfe5ded.png)
 
-Para obtener las trayectorias en los otros cuadrantes, sencillamente se deplazaron los targets a los respectivos Workobjects:
+Para obtener las trayectorias en los otros cuadrantes, sencillamente se desplazó el objeto Trayectorias a los respectivos Workobjects:
 ![Cuadrante2](https://user-images.githubusercontent.com/55710287/176577441-f3989896-70a2-40b9-b26e-8d50c8a0d05a.png)
 ![Inclinado](https://user-images.githubusercontent.com/55710287/176577450-5c1e2fe1-446e-4ff7-9b98-66d71e2f5395.png)
 
