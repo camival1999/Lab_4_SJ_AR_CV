@@ -1,6 +1,6 @@
-# Lab_4_SJ_AR_CV
+# Laboratorio 4 - Robótica Industrial No. 1
 Repositorio dedicado al desarrollo del laboratorio No. 4 de Robótica de la Universidad Nacional de Colombia
-# Estudiantes: Camilo Valencia - Sara Jiménez - Alejandra Rojas
+## Estudiantes: Camilo Valencia - Sara Jiménez - Alejandra Rojas
 ***
 ## Trabajo a desarrollar:
 
@@ -29,11 +29,11 @@ inclinación de 30 deg usando un nuevo workobject reutilizando las trayectorias 
 Se propusieron varias alternativas, como la impresión en manufactura aditiva de un sujetador que se anclara al porta herramientas del robot. Finalmente, se propone una herramienta sencilla, con materiales fáciles de conseguir, funcional y fácil de instalar. Esta herramienta tiene en cuenta los cambios de altura que pueda tener la superficie donde se escribirá, dando hasta 2.5 cm de tolerancia. 
 La herramienta se apoya en la fuerza de gravedad para poder hacer contacto entre el marcador y la superficie, mientras el robot sigue la trayectoría siempre a la misma altura y genera el trazo de las letras.
 
-La herramienta está contruida con una T de pvc de 1/2 pulgada, en un extremo se le ha insertado un tramo de tubo pvc de 1/2 pulgada de 40 cm de largo, el cual servirá para anclar al porta herramientas del robot. Dado que los torques y fuerzas de proceso son bastante pequeñas, bastó con insertar este tramo de tubo en el agujero que tiene el porta herramientas para asegurar su fijación. Por otro lado, en la T se insertó un marcador borrable al cual debía restringirse su desplazamiento, para lograrlo se instalaron en el marcador dos empaques de caucho de 18 mm de diámetro interno, con el material del empaque se aseguró la fijación requerida para detener el marcador en su recorrido. A continuación se muestra la herramienta construida:
+La herramienta está contruida con una T de pvc de 1/2 pulgada, en un extremo tiene insertado un tramo de tubo pvc de 1/2 pulgada de 4 cm de largo, el cual servirá para anclar al plato porta herramientas del robot. Dado que los torques y fuerzas de proceso son bastante pequeñas, bastó con insertar este tramo de tubo en el agujero que tiene el porta herramientas para asegurar su fijación. Por otro lado, en la T se insertó un marcador borrable al cual debía restringirse su desplazamiento, para lograrlo se instalaron en el marcador dos empaques de caucho de 18 mm de diámetro interno, con el material del empaque se aseguró la fijación requerida para detener el marcador en su recorrido. A continuación se muestra la herramienta construida:
 
 <img src="https://i.postimg.cc/TP5GqSj3/Whats-App-Image-2022-06-15-at-10-51-53-AM.jpg" alt="drawing" width="300"/>
 
-A continuación se muestra los modelos cad de las piezas y los planos correspondientes:
+Aquí se muestran los modelos cad de las piezas y los planos correspondientes:
 
 <img src="https://i.postimg.cc/8kY52qwN/herramienta.png" alt="drawing" width="300"/>
 
