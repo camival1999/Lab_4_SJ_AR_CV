@@ -21,10 +21,11 @@ de home en la que se inició.
 
 Se debe replicar la tarea de escritura sobre el cuadrante x(+) y(-), en una superficie con una
 inclinación de 30 deg usando un nuevo workobject reutilizando las trayectorias del cuadrante x(+) y(+).
+***
 
 ## Herramienta:
 
-1. Diseñar y construir una herramienta que permita fijar un marcador borrable al flanche del robot.
+### Diseño y construcción de la herramienta
 
 Se propusieron varias alternativas, como la impresión en manufactura aditiva de un sujetador que se anclara al porta herramientas del robot. Finalmente, se propone una herramienta sencilla, con materiales fáciles de conseguir, funcional y fácil de instalar. Esta herramienta tiene en cuenta los cambios de altura que pueda tener la superficie donde se escribirá, dando hasta 2.5 cm de tolerancia. 
 La herramienta se apoya en la fuerza de gravedad para poder hacer contacto entre el marcador y la superficie, mientras el robot sigue la trayectoría siempre a la misma altura y genera el trazo de las letras.
@@ -45,9 +46,10 @@ Aquí se muestran los modelos cad de las piezas y los planos correspondientes:
 
 
 
-2. Realizar el proceso de calibración de la herramienta construida empleado la técnica más apropiada para crear
-el objeto Tooldata
+### Calibración de la herramienta creada
 
-3. Realizar la importación del modelo CAD de la herramienta diseñada a Robotstudio, comparar y analizar las
-diferencias de los tooldata creados.
+### Comparación con el modelo CAD
+
+***
+# Trayectorias y uso del WorkObject
 
