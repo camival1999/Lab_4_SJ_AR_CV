@@ -66,10 +66,6 @@ Finalmente podemos apreciar los resultados donde se observa que el error minimo 
 ![h3](https://user-images.githubusercontent.com/82957735/176580530-031328c1-3dbb-442e-bcba-1c699cfa4472.jpg)
 
 
-
-
-### Comparación con el modelo CAD
-
 ***
 # Trayectorias y uso del WorkObject
 Para la creación de trayectorias se comenzó definiendo los WorkObjects que definen cada uno de los planos de trabajo que requeríamos, en este caso 3: Cuadrante_1 (X+Y+), Cuadrante_2(X+Y-) y Cuadrante_2_Inclinado. Además de estos, se creó otro workobject que contendrá los targets de forma que para realizar el trazado en cada cuadrante bastaría con mover el WorkObject Trayectorias a cada uno de los WorkObjects de cuadrante deseado. 
