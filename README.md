@@ -90,8 +90,10 @@ Para obtener las trayectorias en los otros cuadrantes, sencillamente se deplazar
 ![Inclinado](https://user-images.githubusercontent.com/55710287/176577450-5c1e2fe1-446e-4ff7-9b98-66d71e2f5395.png)
 
 Y para finalizar, realizamos la simulación:
+https://youtu.be/WOMRrU63NW8
+(Click en la imagen para acceder directamente)
 
-
+[![iniciales](https://img.youtube.com/vi/WOMRrU63NW8/mqdefault.jpg)](https://youtu.be/WOMRrU63NW8) 
 
 Una vez definidas y simuladas las trayectorias, obtenemos el módulo de RAPID que vemos a continuación y adjunto en el repositorio. Comenzamos con el modulo de CalibrationData, el cual contiene los WorkObjects y Tools definidos:
 ![Calib](https://user-images.githubusercontent.com/55710287/176578533-d0140c3a-225f-4c93-b5ec-2a9c39d87f0e.png)
@@ -103,4 +105,12 @@ Ahora pasamos al módulo principal, el cual contiene los Targets definidos y las
 Y cargamos estos módulos en el controlador del robot para verlo en acción:
 https://youtu.be/txJBNLaKgSk
 (Click en la imagen para acceder directamente)
+
 [![iniciales](https://img.youtube.com/vi/txJBNLaKgSk/mqdefault.jpg)](https://youtu.be/txJBNLaKgSk) 
+***
+
+# Conclusiones
+- En conclusión Robot studio es una excelente herramienta de simulación que permite programar robots y sus trayectorias desde una interfaz gráfica, este tipo de herramientas al incorporar un simulador permiten realizar la detección temprana de errores en el código.
+- Las configuraciones entre los puntos objetivos del robot al realizar lineas rectas o circulares deben ser similares o muy iguales, porque si no pueden existir singularidades, estas singularidades son destacadas por el sistema de simulación de robot studio.
+- Al diseñar una herramienta es muy importante tener en cuenta cómo se va a realizar el acople de manera que al momento de instalarla sea posible acceder a todas las juntas y tornillos, además realizar herramientas robustas permite aumentar la presición de la tarea.
+- Poder calibrar una herramienta desde el FlexPendant haciendo uso del robot permite facilitar la calibración de herramientas con geometrías complejas, además calcula el error en la calibración de manera que se pueden realizar más puntos para así reducirlo
