@@ -72,4 +72,35 @@ Finalmente podemos apreciar los resultados donde se observa que el error minimo 
 
 ***
 # Trayectorias y uso del WorkObject
+Para la creación de trayectorias se comenzó definiendo los WorkObjects que definen cada uno de los planos de trabajo que requeríamos, en este caso 3: Cuadrante_1 (X+Y+), Cuadrante_2(X+Y-) y Cuadrante_2_Inclinado. Además de estos, se creó otro workobject que contendrá los targets de forma que para realizar el trazado en cada cuadrante bastaría con mover el WorkObject Trayectorias a cada uno de los WorkObjects de cuadrante deseado. 
+Aquí podemos ver la estación creada en Robot Studio:
+![Estacion](https://user-images.githubusercontent.com/55710287/176576706-6da405eb-827c-49f6-8b6a-3838a618aa57.png)
 
+Con los WorkObjects y Targets definidos como fue mencionado:
+![Marcos](https://user-images.githubusercontent.com/55710287/176576823-0c81081d-581a-48d3-b7d6-58b3558dd130.png)
+![Targets](https://user-images.githubusercontent.com/55710287/176576601-98a1784d-6e3f-4cde-ab08-2d5f103d4ffd.png)
+
+Una vez definidos los Targets, se emplearon los comandos `moveL`, `moveLJ` y `moveC` para generar las trayectorias que describieran las iniciales SAC (Sara - Alejandra - Camilo) tomando en cuenta las restricciones de velocidad menor a 1000 mm/s y por supuesto reduciendola según el tipo de movimiento, mantener una zona de tolerania menor o igual a 10mm y realizando un retorno a la posición de home (Definida en su propio WorkObject para no verse afectada con los movimientos de los demás targets). Además de sólo generar las trayectorias, se debe tener en cuenta la configuración del robot en la que es alcanzado cada Target, para lo cual se tomó especial cuidado de revisar que los movimientos entre targets y entre letras fuese posible, buscando lograr un efecto adicional artístico jugando con distintas configuraciones.
+
+Aquí podemos ver las trayectorias generadas en el cuadrante 1:
+![Trayectorias](https://user-images.githubusercontent.com/55710287/176577362-4b6594fd-fc46-4716-a1fa-cfdeccfe5ded.png)
+
+Para obtener las trayectorias en los otros cuadrantes, sencillamente se deplazaron los targets a los respectivos Workobjects:
+![Cuadrante2](https://user-images.githubusercontent.com/55710287/176577441-f3989896-70a2-40b9-b26e-8d50c8a0d05a.png)
+![Inclinado](https://user-images.githubusercontent.com/55710287/176577450-5c1e2fe1-446e-4ff7-9b98-66d71e2f5395.png)
+
+Y para finalizar, realizamos la simulación:
+
+
+
+Una vez definidas y simuladas las trayectorias, obtenemos el módulo de RAPID que vemos a continuación y adjunto en el repositorio. Comenzamos con el modulo de CalibrationData, el cual contiene los WorkObjects y Tools definidos:
+![Calib](https://user-images.githubusercontent.com/55710287/176578533-d0140c3a-225f-4c93-b5ec-2a9c39d87f0e.png)
+
+Ahora pasamos al módulo principal, el cual contiene los Targets definidos y las rutinas de cada trayectoria generada.
+![Lab41](https://user-images.githubusercontent.com/55710287/176578540-e2d10e89-962a-45f0-943e-6781cbe523c7.png)
+![Lab42](https://user-images.githubusercontent.com/55710287/176578552-1e019edd-0649-45ed-8177-658e274fb78e.png)
+
+Y cargamos estos módulos en el controlador del robot para verlo en acción:
+https://youtu.be/txJBNLaKgSk
+(Click en la imagen para acceder directamente)
+[![iniciales](https://img.youtube.com/vi/txJBNLaKgSk/mqdefault.jpg)](https://youtu.be/txJBNLaKgSk) 
