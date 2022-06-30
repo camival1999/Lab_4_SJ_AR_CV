@@ -47,6 +47,22 @@ Aquí se muestran los modelos cad de las piezas y los planos correspondientes:
 
 
 ### Calibración de la herramienta creada
+La calibración de la herramienta es uno de los pasos más importantes al realizar la programación de una rutina. Inicialmente para calibrar la herramienta creada primero lo realizamos directamente desde robot studio, iniciamos tomando las medidas desde el plato del mandril hasta el TCP, usando un calibrador pie de rey, al realizar estas medidas concluimos que los desfases se encuentran en : 
+- X = 42.5 cm
+- Y = 0.0cm
+- Z = 68.4 cm
+Para así crear la herramienta Soporte_pen en Robot studio:
+![herramienta](https://user-images.githubusercontent.com/82957735/176579692-8074684c-2e1f-4764-a9be-e3104121f29b.jpeg)
+
+Luego para poder comparar los resultados realizamos la calibración por medio de 4 poses diferentes usando el techpendant y el robot, en este caso se evidenció un poco de error ya que cómo la herramienta no se encontraba completamente apoyada pues no se encontraba en su pose natural, en este caso elegimos 4 poses bien diferentes y calibrabamos sobre la esquina del la punta del marcador. Al realizar esta calibración obtuvimos los siguientes resultados:
+![h1](https://user-images.githubusercontent.com/82957735/176580192-7b7a125a-dba2-454a-9326-0cac06e4d47e.jpg)
+![h2](https://user-images.githubusercontent.com/82957735/176580220-2de77549-d831-4629-8f17-26efa07adb93.jpg)
+Donde podemos observar que las configuraciones son bastante parecidas a las que habíamos realizado inicialmente, además el pequeño cambio en y se debió a que para que no quedara completamente extendido al estar suspendido en el aire, usamos un tope extra que inclinó ligeramente la herramienta. 
+Finalmente podemos apreciar los resultados donde se observa que el error minimo es de 0,5mm , lo cual es adecuado para la tarea que estamos desarrollando. 
+![h3](https://user-images.githubusercontent.com/82957735/176580530-031328c1-3dbb-442e-bcba-1c699cfa4472.jpg)
+
+
+
 
 ### Comparación con el modelo CAD
 
